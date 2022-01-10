@@ -1,0 +1,34 @@
+{
+    "name": "bagisto/bagisto-weaccept-payment",
+    "description": "allow customers to pay for others using weaccept payment gateway.",
+    "keywords": [
+        "bagisto",
+        "weaccept",
+        "weaccept-payment"
+    ],
+    "homepage": "https://github.com/bagisto/bagisto-weaccept-payment",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Bagisto",
+          "homepage": "https://bagisto.com",
+        }
+    ],
+    "require": {
+        "konekt/concord": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webkul\\WeAccept\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\WeAccept\\Providers\\WeAcceptServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
