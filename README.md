@@ -35,6 +35,10 @@ php artisan route:cache
 php artisan optimize
 ```
 
+```
+php artisan vendor:publish
+```
+
 -> Press 0 and then press enter to publish all assets and configurations.
 
 > That's it, now just execute the project on your specified domain.
