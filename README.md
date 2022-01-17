@@ -6,7 +6,7 @@ Bagisto WeAccept add-on allow customers to pay for others using WeAccept payment
 
 - **Bagisto**: 1.3.2
 
-## Installation with composer:
+## Installation :
 - Run the following command
 ```
 composer require bagisto/bagisto-weaccept-payment
