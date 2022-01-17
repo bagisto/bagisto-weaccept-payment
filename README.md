@@ -37,39 +37,4 @@ php artisan optimize
 
 -> Press 0 and then press enter to publish all assets and configurations.
 
-## Installation without composer:
-
-- Unzip the respective extension zip and then merge "packages" folder into project root directory.
-- Goto config/app.php file and add following line under 'providers'.
-
-```
-Webkul\WeAccept\Providers\WeAcceptServiceProvider::class
-```
-
-- Goto composer.json file and add following line under 'psr-4'
-
-```
-"Webkul\\WeAccept\\": "packages/Webkul/WeAccept/src"
-```
-
-- WeAccept Merchent Account's URL
-
-    - Transaction response callback
-
-    ```
-    https://yourdomain.com/weaccept/paymob_txn_response_callback
-    ```
-
-- Run these commands below to complete the setup
-
-```
-composer dump-autoload
-```
-```
-php artisan optimize
-```
-```
-php artisan migrate
-```
-
 > That's it, now just execute the project on your specified domain.
