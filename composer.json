@@ -1,17 +1,17 @@
 {
     "name": "bagisto/bagisto-weaccept-payment",
-    "description": "allow customers to pay for others using weaccept payment gateway.",
+    "description": "Allow customers to pay for others using weaccept payment gateway.",
     "keywords": [
         "bagisto",
         "weaccept",
-        "weaccept-payment"
+        "weaccept payment"
     ],
     "homepage": "https://github.com/bagisto/bagisto-weaccept-payment",
     "license": "MIT",
     "authors": [
         {
           "name": "Bagisto",
-          "homepage": "https://bagisto.com",
+          "homepage": "https://bagisto.com"
         }
     ],
     "require": {
